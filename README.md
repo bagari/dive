@@ -1,7 +1,7 @@
 [![PyPI](https://img.shields.io/pypi/v/dive-mri?label=PyPI)](https://pypi.org/project/dive-mri/)
 [![FURY](https://img.shields.io/badge/Built%20with-FURY-red)](https://fury.gl/latest/index.html)
 [![VTK / OpenGL](https://img.shields.io/badge/Rendering-VTK%20%2F%20OpenGL-5586A4)](https://www.opengl.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/bagari/dive/blob/main/LICENSE.txt)
 
 <br />
 <div align="center">
