@@ -1,0 +1,2 @@
+prune resources
+global-exclude .DS_Store

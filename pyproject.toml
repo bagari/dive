@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dive-mri"
+version = "2.0.0"
+description = "Diffusion Visualization Explorer (DiVE) — interactive 3D viewer for tractography, ROIs, and meshes."
+keywords = ["diffusion MRI", "along-tract visualization", "tractography", "white matter bundle"]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE.txt"]
+requires-python = ">=3.11,<3.14"
+authors = [{ name = "Iyad Ba Gari", email = "iyad.bagari@usc.edu" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "dipy>=1.10",
+    "distinctipy>=1.3",
+    "fury>=0.11",
+    "imageio[pyav]>=2.34",
+    "matplotlib>=3.8",
+    "meta-neuro>=2.1",
+    "nibabel>=5.2",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "Pillow>=10.0",
+    "pyvista>=0.43",
+    "scipy>=1.11.4",
+    "tqdm>=4.66",
+    "trx-python>=0.3",
+    "tslearn>=0.6.3",
+    "vtk>=9.3",
+    "webcolors>=24.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/bagari/dive"
+
+[project.scripts]
+dive = "dive.workflows.dive:main"
+
+[tool.setuptools.package-data]
+dive = ["assets/*"]
+
+[tool.setuptools.packages.find]
+include = ["dive*"]
+
