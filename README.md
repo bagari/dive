@@ -37,12 +37,11 @@ Diffusion Visualization and Explorer (DiVE) is a command-line tool for visualizi
 
 A 360° rotation exported with DiVE's `movie` mode:
 
-<video src="https://github.com/bagari/dive/raw/main/resources/dive_movie.mp4" controls muted loop width="100%">
-  Your browser can't play this video inline —
-  <a href="https://github.com/bagari/dive/raw/main/resources/dive_movie.mp4">download / watch the demo (MP4)</a>.
-</video>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/bagari/dive/main/resources/dive_movie.gif" alt="DiVE demo — 360° rotation of a bundle over a glass brain" width="100%">
+</div>
 
-If the player above doesn't appear, watch it here: [**▶ dive_movie.mp4**](https://github.com/bagari/dive/raw/main/resources/dive_movie.mp4)
+Prefer full quality? Watch it here: [**▶ dive_movie.mp4**](https://github.com/bagari/dive/raw/main/resources/dive_movie.mp4)
 
 ## Getting Started
 
