@@ -114,11 +114,20 @@ def assign_colors(stats_csv, cmap_name, range_value=None, log_p_value=False, thr
     )
 
     if output is not None:
+        if os.path.isdir(output):
+            directory, prefix = output, ""
+        else:
+            directory = os.path.dirname(output) or "."
+            prefix = os.path.splitext(os.path.basename(output))[0]
+            prefix = f"{prefix}_" if prefix else ""
+        os.makedirs(directory, exist_ok=True)
+
         fig, ax = plt.subplots(figsize=(6, 1))
         sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
         sm.set_array([])
         fig.colorbar(sm, cax=ax, orientation="horizontal")
-        plt.savefig(os.path.join(output, filename.lstrip("_")), bbox_inches="tight", dpi=300)
+        # plt.savefig(os.path.join(output, filename.lstrip("_")), bbox_inches="tight", dpi=300)
+        plt.savefig(os.path.join(directory, prefix + filename.lstrip("_")), bbox_inches="tight", dpi=300)
         plt.close(fig)
 
     return list(color_map.values())  
