@@ -76,10 +76,10 @@ def load_scene_objects(
                 range_value=value_range,
                 log_p_value=log_p_value,
                 threshold=threshold,
-                output=output,
+                output=output if i == 0 else None,
                 group_stat=group_stat,
             )
-            for csv_path in stats_csv
+            for i, csv_path in enumerate(stats_csv)
         ]
 
     # --- Masks ---
