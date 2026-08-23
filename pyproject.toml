@@ -34,12 +34,12 @@ dependencies = [
     "numpy>=1.26",
     "pandas>=2.2",
     "Pillow>=10.0",
+    "vtk>=9.3",
     "pyvista>=0.43",
     "scipy>=1.11.4",
     "tqdm>=4.66",
     "trx-python>=0.3",
     "tslearn>=0.6.3",
-    "vtk>=9.3",
     "webcolors>=24.0",
 ]
 
