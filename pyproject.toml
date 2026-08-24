@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=77.0.3", "wheel"]
+requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -10,7 +10,7 @@ keywords = ["diffusion MRI", "along-tract visualization", "tractography", "white
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE.txt"]
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.14"
 authors = [{ name = "Iyad Ba Gari", email = "iyad.bagari@usc.edu" }]
 classifiers = [
     "Development Status :: 4 - Beta",
