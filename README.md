@@ -1,7 +1,10 @@
 [![PyPI](https://img.shields.io/pypi/v/dive-mri?label=PyPI)](https://pypi.org/project/dive-mri/)
-[![FURY](https://img.shields.io/badge/Built%20with-FURY-red)](https://fury.gl/latest/index.html)
-[![VTK / OpenGL](https://img.shields.io/badge/Rendering-VTK%20%2F%20OpenGL-5586A4)](https://www.opengl.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/bagari/dive/blob/main/LICENSE.txt)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/bagari/dive?logo=Github)
+[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dive-mri/README.html)
+![Platforms](https://anaconda.org/bioconda/dive-mri/badges/platforms.svg)
+![Downloads](https://anaconda.org/bioconda/dive-mri/badges/downloads.svg)
+![License](https://anaconda.org/bioconda/dive-mri/badges/license.svg)
+
 
 <br />
 <div align="center">
